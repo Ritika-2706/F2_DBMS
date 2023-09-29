@@ -31,7 +31,7 @@ insert into studt values ('22033212','roshan','19','neelankarai','9789967509');
  select * from studt;
  ```
 ## Output:
-![Output](exp1-1.png)
+![exp1-1](https://github.com/Ritika-2706/F2_DBMS/assets/93427238/26acecae-e720-4e1c-892e-2e7bac463440)
 
 
 ### 2) Change the above student table by adding another attribute department
@@ -47,7 +47,8 @@ select * from studt;
 ```
 
 ### OUTPUT:
-![Output](exp1-2.png)
+![exp1-2](https://github.com/Ritika-2706/F2_DBMS/assets/93427238/3c902d92-b6ab-4dde-bcc1-f4da3aba18a7)
+
 
 ### 3) Drop the student table
  
@@ -58,7 +59,7 @@ DROP TABLE studt;
 
 
 ### OUTPUT:
-![Output](exp1-3.png)
+![exp1-3](https://github.com/Ritika-2706/F2_DBMS/assets/93427238/d870cc9a-e888-46ab-8022-7116514e68d0)
 
 ### 4) Delete the student table using truncate keyword
 
@@ -67,7 +68,8 @@ DROP TABLE studt;
 truncate table mystudt;
 ```
 ### OUTPUT:
-![Output](exp1-4.png)
+
+![exp1-4](https://github.com/Ritika-2706/F2_DBMS/assets/93427238/dd32ea56-a3eb-49fe-a52e-4e46e07cb8ed)
 
 
 
@@ -78,7 +80,8 @@ truncate table mystudt;
 rename studt to mystudt;
 ```
 ### OUTPUT:
-![Output](exp1-5.png)
+![exp1-5](https://github.com/Ritika-2706/F2_DBMS/assets/93427238/732712ca-dc5e-44b2-9519-e76d58af8bf0)
+
 
 ### Result:
 Creating a student table and executing the DDL queries using SQL was successfully executed.
