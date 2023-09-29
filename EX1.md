@@ -21,38 +21,64 @@ RENAME: This is used to rename an object existing in the database.
 ## Query:
 ### 1) Create a table student with the following fieds rollno,name,age,address,phoneno.
 
-### SQL QUERY: 
+## SQL QUERY:
+```
+create table studt(rollnumber int,studentname char(20),age int,address char(20),phonenumber int);
+insert into studt values ('2203476','Prem','19','chengalpattu','9087564312');
+insert into studt values ('2203543','Aarya','19','tambaram','8767569809');
+insert into studt values ('22035678','diva','19','thiruvallur','9898902341');
+insert into studt values ('22033212','roshan','19','neelankarai','9789967509');
+ select * from studt;
+ ```
+## Output:
+![Output](exp1-1.png)
 
-
-### OUTPUT:
 
 ### 2) Change the above student table by adding another attribute department
 
 ### SQL QUERY: 
+```
+alter table studt add department char(20);
+update studt set department='CSE' where rollnumber=2203476;
+update studt set department='IT' where rollnumber=2203543;
+update studt set department='AIML' where rollnumber=22035678;
+update studt set department='EEE' where rollnumber=22033212;
+select * from studt;
+```
 
 ### OUTPUT:
-
+![Output](exp1-2.png)
 
 ### 3) Drop the student table
  
 ### SQL QUERY: 
+```
+DROP TABLE studt;
+```
 
 
 ### OUTPUT:
-
+![Output](exp1-3.png)
 
 ### 4) Delete the student table using truncate keyword
 
 ### SQL QUERY: 
-
-
+```
+truncate table mystudt;
+```
 ### OUTPUT:
+![Output](exp1-4.png)
 
 
 
 ### 5) Rename the student table to mystudent
 
 ### SQL QUERY: 
-
-
+```
+rename studt to mystudt;
+```
 ### OUTPUT:
+![Output](exp1-5.png)
+
+### Result:
+Creating a student table and executing the DDL queries using SQL was successfully executed.
